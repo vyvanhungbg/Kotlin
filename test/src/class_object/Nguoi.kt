@@ -1,10 +1,10 @@
-package ClassAndObject
+package class_object
 
-class Nguoi(var name:String , var ngaySinh:String, var tuoi:Int) {
+open class Nguoi(var name:String , var ngaySinh:String, var tuoi:Int) {
 
     var nguoiYeu:String? = null
 
-    fun infor() {
+    open fun infor() {
         println("\nTên : ${name}\nNgày Sinh : ${ngaySinh}\nTuổi : ${tuoi}")
         nguoiYeu?.let {
             println("Người yêu : $nguoiYeu")
@@ -20,4 +20,6 @@ class Nguoi(var name:String , var ngaySinh:String, var tuoi:Int) {
     constructor(name: String, ngaySinh: String , tuoi: Int, nguoiYeu:String):this(name, ngaySinh, tuoi){
         this.nguoiYeu = nguoiYeu
     }
+
+
 }
