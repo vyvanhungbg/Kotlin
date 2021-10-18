@@ -60,6 +60,9 @@ fun main() {
 //     for (i in 5 downTo 1  step 2)  // khong the i in 5..1 mà cần dùng tư khóa downTo
 //          println("i = $i")
 
+     for(i in 1 until 6)
+          println(i)
+
      for(i in 0..myArray.size -1){
           println(myArray[i])
      }
