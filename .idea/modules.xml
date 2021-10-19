@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OOP/Bai1_CacLopCoBan/Bai1_CacLopCoBan.iml" filepath="$PROJECT_DIR$/OOP/Bai1_CacLopCoBan/Bai1_CacLopCoBan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP/Bai2_HamKhoiTao/Bai2_HamKhoiTao.iml" filepath="$PROJECT_DIR$/OOP/Bai2_HamKhoiTao/Bai2_HamKhoiTao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP/Bai3_QuanHeKetTap/Bai3_QuanHeKetTap.iml" filepath="$PROJECT_DIR$/OOP/Bai3_QuanHeKetTap/Bai3_QuanHeKetTap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP/Bai4_MangDoiTuong/Bai4_MangDoiTuong.iml" filepath="$PROJECT_DIR$/OOP/Bai4_MangDoiTuong/Bai4_MangDoiTuong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Kotlin.iml" filepath="$PROJECT_DIR$/.idea/Kotlin.iml" />
+    </modules>
+  </component>
+</project>

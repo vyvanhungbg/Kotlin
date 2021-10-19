@@ -1,0 +1,3 @@
+interface xinNghi {
+    fun xinNghi()
+}

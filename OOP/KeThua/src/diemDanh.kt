@@ -1,0 +1,3 @@
+interface diemDanh {
+    fun diemDanh()
+}
