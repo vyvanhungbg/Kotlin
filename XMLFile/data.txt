@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><SanPhams><SanPham><Ma>1</Ma><Ten>Fanta</Ten><Gia>16.0</Gia></SanPham><SanPham><Ma>2</Ma><Ten>Sting</Ten><Gia>8.0</Gia></SanPham><SanPham><Ma>3</Ma><Ten>RedBull</Ten><Gia>12.0</Gia></SanPham></SanPhams>
