@@ -1,0 +1,1 @@
+[{"MaDanhMuc":1,"TenDanhMuc":"Thức uống ","SanPhams":[{"ma":1,"ten":"Fanta","donGia":16.0},{"ma":2,"ten":"Sting","donGia":8.0},{"ma":3,"ten":"RedBull","donGia":12.0}]},{"MaDanhMuc":1,"TenDanhMuc":"Đồ ăn ","SanPhams":[]}]
