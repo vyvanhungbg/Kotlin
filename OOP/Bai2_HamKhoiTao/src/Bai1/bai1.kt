@@ -7,6 +7,6 @@ fun main() {
         xuat()
         giai()
     }
-    var P = PTB2(3,-4,1)
+    val P = PTB2(3,-4,1)
     with(P){xuat(); giai()}
 }
