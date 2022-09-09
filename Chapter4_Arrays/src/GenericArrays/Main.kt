@@ -1,0 +1,4 @@
+package GenericArrays
+
+class Main {
+}
