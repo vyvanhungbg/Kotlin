@@ -1,1 +1,1 @@
-data class User()
+data class User(val name: String)

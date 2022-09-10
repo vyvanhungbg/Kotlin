@@ -1,2 +1,2 @@
-class C {
+class C : Shape.Circle(1F) {
 }

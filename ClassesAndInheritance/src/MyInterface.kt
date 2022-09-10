@@ -1,2 +1,2 @@
-class MyInterface {
+interface MyInterface : Action {
 }

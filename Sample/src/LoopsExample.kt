@@ -1,4 +1,4 @@
-class ForLoopsExample {
+class LoopsExample {
     companion object{
         @JvmStatic
         fun main(args: Array<String>) {
