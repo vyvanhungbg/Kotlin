@@ -42,9 +42,14 @@ class Main {
                 println("Sử dụng thuộc tính ngoài $it, dùng $sum")
             }
 
-            val list : List<Int> = listOf(1, 2, 3)
+           /* val list : List<Int> = listOf(1, 2, 3)
             list.add(4)
-            print(list)
+            print(list)*/
+            val  invokeFun:InvokeFun = InvokeFun("Hun")
+            invokeFun("alo")
+
+            val a = 5.5;
+            print(Math.sqrt(a))
         }
     }
 }
