@@ -1,4 +1,5 @@
-import MyLambda.Companion.myPrintln
+import ortherFunc.MyLambda
+import ortherFunc.myPrintln
 
 class Main {
     companion object {
@@ -8,15 +9,14 @@ class Main {
 
 
 
-            //Thay vì truyền refencen vào , ta định nghĩa luôn fun pử àument
+            //Thay vì truyền refencen vào , ta định nghĩa luôn fun pử argument
             MyLambda.doSomeThingWith(1,fun(result:String?){
                 println("In kiểu tự khai báo trong argument : $result")
             })
 
-            MyLambda.doSomeThingWith(0, {
-                result ->
+            MyLambda.doSomeThingWith(0) { result ->
                 println("In kiểu lambda 1 : $result")
-            })
+            }
 
             MyLambda.doSomeThingWith(100, {
                 s : String ->
@@ -41,11 +41,18 @@ class Main {
             MyLambda.doSomeThingWith(10){
                 println("Sử dụng thuộc tính ngoài $it, dùng $sum")
             }
+            val x = fun(string:String){
+                println(string)
+            }
+
+            val y = {string:String -> println(string)}
+            MyLambda.doSomeThingWith(10,x )
+            MyLambda.doSomeThingWith(10,y )
 
            /* val list : List<Int> = listOf(1, 2, 3)
             list.add(4)
             print(list)*/
-            val  invokeFun:InvokeFun = InvokeFun("Hun")
+            val  invokeFun:InvokeFun = InvokeFun()
             invokeFun("alo")
 
             val a = 5.5;
@@ -53,3 +60,13 @@ class Main {
         }
     }
 }
+
+/*
+fun main() {
+    val obj = object {
+        var a = 1
+        var b = "hung"
+        fun helo() = "$a $b"
+    }
+    println(obj.helo())
+}*/

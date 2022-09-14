@@ -12,4 +12,5 @@ fun main() {
     val b = 6
     println( B().sum(a, b) )  // 11
     println( B().sum() )   // 3
+    C().invoke()
 }

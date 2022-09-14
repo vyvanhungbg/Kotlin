@@ -44,11 +44,13 @@ fun getBaseColorCode(color: String) = when (color){
     else -> throw IllegalArgumentException("Invalid base color")
 }
 
+const val a = 5
+
 
 fun main() {
     val arr = intArrayOf(1, 2, 3, 4)
-    val a = 5
-    val b = 6
+    var b = 1
+    val c = 6
     println("Sum = ${sum(a, b, *arr)}")
 }
 

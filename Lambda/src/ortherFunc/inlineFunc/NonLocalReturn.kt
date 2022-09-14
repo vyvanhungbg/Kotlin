@@ -2,6 +2,12 @@ inline fun myEvaluate( lambda : (Int, Int) -> (Int)) :Int{
     return lambda(1,2)
 }
 
+inline fun myEvaluate1(crossinline lambda : (Int, Int) -> (Int)) :Int{
+    return lambda(1,2)
+}
+
+
+
 fun nonInline(): Int {
     println("before lambda")
     val lambda = myEvaluate({ a, b -> return 1 })

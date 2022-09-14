@@ -1,4 +1,4 @@
-inline fun myFunc(noinline process: (string:String) -> Unit){
+inline fun myFunc( process: (string:String) -> Unit){
     process("process")
     println("close func")
 }

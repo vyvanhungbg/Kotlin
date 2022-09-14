@@ -14,7 +14,7 @@ class F : C() {
 
     override fun sum2(a: Int, b: Int) {
         super.sum2(a, b)
-        println("Do some Thing sum2 of F\n")
+        println("Do some Thing sum2 of F $b\n")
     }
 
     override fun myInfix(a: Int) {
@@ -32,15 +32,15 @@ fun main() {
     val a = 1
     val b = 2
     // Gọi hàm với đầy đủ đối số
-    C().sum1(a, b)
-    F().sum1(a, b)
+    C().sum1(a, b)  //Do some Thing sum1  of C
+    F().sum1(a, b)  // Do some Thing sum1  of C - Do some Thing sum1 of F
 
-    C().sum2(a)
-    F().sum2(a)  //OK Mặc dù trông hàm F không có đối số mặc định
+    C().sum2(a)  // Do some Thing sum2 of C
+    F().sum2(a)  //OK Mặc dù trông hàm F không có đối số mặc định / Do some Thing sum2 of C - Do some Thing sum2 of F
 
-    C() myInfix 3
-    F() myInfix 3
+    C() myInfix 3  //Do some thing myInfix of C
+    F() myInfix 3 //Do some thing myInfix of C  //Do some Thing myInfix of F
 
-    C().invoke()
-    F().invoke()
+    C().invoke() //Do some thing invoke of C
+    F().invoke() //Do some thing invoke of C - Do some Thing invoke of F
 }

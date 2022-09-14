@@ -1,3 +1,5 @@
+package ortherFunc
+
 class MyLambda {
    companion object{
 
@@ -53,6 +55,16 @@ fun myPrintln(string: String):Unit{
     println("Kết quả : $string")
 }
 
+
+fun doSomeThingWith1(number: Int, receiver:(String) -> Unit){
+    val str:String = when(number){
+        0 -> "0"
+        in 1..10 -> "[1:10]"
+        else -> ">10"
+    }
+    receiver(str)
+
+}
 fun main() {
     doSomeThingWith(4, ::myPrintln) // Kết quả : [1:10]
     doSomeThingWith(3, fun(string:String){ println("Kết quả : $string") })  // anonymous
